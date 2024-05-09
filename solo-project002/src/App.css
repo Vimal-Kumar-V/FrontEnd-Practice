@@ -1,0 +1,76 @@
+
+.app{
+  margin: 3px;
+  background-color: grey;
+}
+
+.navbar{
+  height: 50px;
+  background-color: red;
+  position: relative;
+  border-radius: 9px 9px 0px 0px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+
+}
+.navbar >p {
+  color: white;
+  margin-left: 4px;
+}
+
+.navbar > img{
+  height: 30px;
+  margin: 10px 4px;
+}
+
+.card{
+  display: flex;
+  height: 30%;
+  margin: 2%;
+  position: relative;
+  background-color: black;
+  color: white
+}
+
+.content{
+  margin: 1rem;
+}
+.content-nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.content-nav> a{
+  margin-left: 15px;
+  color: grey;
+}
+.content-nav> img{
+  width: 20px;
+  position: absolute;
+  left: 205px;
+  top: 12px;
+  margin-bottom: 50px;
+}
+
+.content-nav> span{
+  letter-spacing: 2px;
+  max-width: 100%;
+}
+
+.card > img{
+  width: 190px;
+  height: 20rem;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: white;
+}
+
+.placelist{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5%;
+  margin: 1% 10%;
+}

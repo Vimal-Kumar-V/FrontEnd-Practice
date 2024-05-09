@@ -1,0 +1,42 @@
+.first-page{
+    padding: 40% 30%;
+    align-items: center;
+    background-color: red;
+}
+
+.first-page > h1{
+    letter-spacing: 2px;
+    margin: auto 10%;
+}
+
+.first-page > p{
+    word-spacing: 5px;
+    display: block;
+    margin: 10% auto;
+}
+
+.first-page > a{
+    width: 100px;
+    height: 60px;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 60px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    align-self: center;
+    margin: 25% 10%;
+    border-radius: 10px;
+}
+.first-page > a:active{
+    background-color: #0000cc;
+    color: wheat;
+    padding: 8px 50px;
+}
+
+.first-page > a:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.home_page{
+  padding: 10% 20% 10% 10%;
+  text-align: center;
+  background-color: #eee;
+}
+
+.home_page > h1{
+  letter-spacing: 2px;
+}
+
+.home_page > p{
+  letter-spacing: 1px;
+  text-indent: 10px;
+  font-weight: bold;
+}
+
+.dice{
+  width: 40px;
+  height: 40px;
+  border: solid;
+  border-color: black;
+  border: solid #eee;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px 0px gray;
+  background: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.dice-button{
+  display: flex;
+  flex-direction: column;
+  align-content: end;
+}
+
+.roll-button{
+  align-self:center;
+  margin: 30px auto 0px auto;
+  width: 90px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: blue;
+  color: wheat;
+  font-size: 20px;
+
+}
+.dices{
+  display: flex;
+  flex-wrap: wrap;
+}

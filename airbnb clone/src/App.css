@@ -1,0 +1,89 @@
+.navbar{
+    margin: 0px;
+    height: 70px;
+    width: 100%;
+    box-shadow: 2px 2.9825618267059326px 1.5px 2px;
+    box-shadow: 0 9px 6px -6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar > img{
+    padding: 22px 30px;
+}
+.hall-frame{
+    margin: 2rem;
+}
+.hall-frame > img{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    border-radius: 8.95px;
+    width: 70%;
+    height: 232px;
+}
+
+.hall-frame > p{
+    font-family: "Poppins", sans-serif;
+    max-width: 320px;
+    height: 56px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 17.6px;
+    color: rgba(34, 34, 34, 1);
+    word-spacing: 2px;
+}
+
+.hall-frame > h1{
+    width: 347px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 39.6px;
+}
+
+.card{
+    width: 175px;
+    height: 400px;
+    margin: 2%;
+    position: relative;
+}
+
+.card > img{
+    width: 150px;
+    height: 235px;
+    border-radius: 9px;
+}
+
+.card>p, card>p>b{
+    width: 90%;
+    height: 5%;
+    margin: 8px;
+    font-size: 12px;
+}
+
+.card > span{
+    display: flex;
+    justify-content: left;
+}
+
+.card > span > p{
+    margin: 8px;
+}
+.country{
+    color: gray;
+}
+
+.card-list{
+    display: flex;
+    overflow-x: auto;
+}
+
+#badge{
+    background-color: rgba(256, 256, 256);
+    position: absolute;
+    padding: 5px 7px;
+    height: 15px;
+    width: 70px;
+    border-radius: 4px;
+    font-weight: bold;
+    top: 6px;
+    left: 6px;
+}
