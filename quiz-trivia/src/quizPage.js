@@ -75,6 +75,7 @@ export default function QuizPage(){
 
     const [question, setQuestion] = useState(questions);
     const [submitted, setSubmit] = useState(false);
+    const [score, setScore] = useState(0);
     let questionUI = question.map(currQuestion => (
         <div className={submitted?"submitted":""}>
             <p className="questions">{currQuestion.question}</p>
@@ -101,10 +102,28 @@ export default function QuizPage(){
         })
     }
     
+    const reloadPage = () =>{
+        setQuestion(questions)
+        setSubmit(false);
+    }
+
+    const getScore = () => {
+        let score = 0;
+        for (let quest of question)
+            {
+                for (let option of quest.options)
+                    {
+                        if (option._id == quest.correct && option.selected)
+                            score++;
+                    }
+            }
+        return score;
+    }
     return (
         <div className="question-option">
             <>
             {questionUI}
+            {submitted && <div className="result"><p>You scored {getScore()}/5 correct answers</p><button className="reloadPage" onClick={reloadPage}>Reload</button></div>}
             {!submitted && <button className="submit" onClick={submitAnswer}>Submit</button>}
             </>
         </div>
